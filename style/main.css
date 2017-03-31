@@ -1,0 +1,63 @@
+html, body{
+    height: 100%;
+    background-color: #fbdd7e;
+    font-family: 'misoregular';
+}
+
+.coffee-menu{
+    width: 95%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 15px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.coffee__item{
+    background-color: #fff;
+    width: calc(33.3% - 30px);
+    margin: 15px;
+    text-align: center;
+}
+
+.coffee__item.active{
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+.coffee__item-price{
+    color:  #02995b;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 42px;
+    margin-bottom: 33px;
+}
+
+.coffee__item-img{
+    margin-left: 18px;
+    margin-bottom: 38px;
+}
+
+.coffee__item.active .coffee__item-img{
+    margin-top: 43px;
+    margin-bottom: 47px;
+}
+
+.coffee__item-title{
+    color:  #333333;
+    font-size: 56px;
+    font-weight: 400;
+}
+
+.coffee__item-subtitle{
+    font-family: Lato;
+    color:  #333333;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 36px;
+}
